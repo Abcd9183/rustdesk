@@ -101,15 +101,15 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["74391l8b3.zicp.vip"];
-pub const PUBLIC_RS_PUB_KEY: &str = "Z4sTiaVFOBQLGOPA8NoMcbVG4lufNcAnlSMurJBca+k=";
+pub const PUBLIC_RS_PUB_KEY: &str = "aokysWy7rhSVQPztcN9ZQD49cE6HpsOPP2ROF11uMJ0=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
     _ => PUBLIC_RS_PUB_KEY,
 };
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
+pub const RENDEZVOUS_PORT: i32 = 21185;
+pub const RELAY_PORT: i32 = 21186;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
