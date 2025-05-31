@@ -1,6 +1,6 @@
 [submodule "libs/hbb_common"]
 	path = libs/hbb_common
-	url = https://github.com/Abcd9183/hbb_commo
+	url = https://github.com/Abcd9183/hbb_common
 
 
 # git checkout master
